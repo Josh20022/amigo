@@ -1,0 +1,74 @@
+/* @font-face{
+    font-family:'MuseoSans_100';
+    src: url('fonts/MuseoSans-100.otf');
+   }
+
+@font-face{
+    font-family:'MuseoSans_300';
+    src: url('fonts/MuseoSans-300.otf');
+   }
+
+@font-face{
+    font-family:'MuseoSans_500';
+    src: url('fonts/MuseoSans_500.otf');
+   }
+
+@font-face{
+    font-family:'MuseoSans_700';
+    src: url('fonts/MuseoSans_700.otf');
+   } */
+
+/* * {
+    font-family: MuseoSans_100;
+} */
+
+body {
+    margin: 0;
+    padding:0;
+}
+
+/* TITLE FLOW2 */
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(78, 78, 78);
+    align-items:center;
+}
+
+.title-text{
+    font-size: 70px;
+    /* font-family: MuseoSans_300; */
+    color: white;
+    margin: auto;
+}
+
+/* PAGE INFO */
+
+.page-info {
+    width: 80%;
+    margin: 60px auto;
+
+}
+
+/* grid */
+
+.container-contact{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:50px;
+}
+
+/* .contact-informatie > h3 {
+    font-family:MuseoSans_700;
+} */
+
+@media screen and (max-width: 900px) {
+    .container-contact {
+        grid-template-columns: 1fr;
+    }
+  }
